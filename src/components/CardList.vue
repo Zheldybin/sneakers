@@ -13,13 +13,5 @@ const onClickAdd = () => {
       image-url="/sneakers/sneakers-1.jpg"
       :onClickAdd="onClickAdd"
     />
-    <Card />
-    <Card />
-    <Card />
-    <Card />
-    <Card />
-    <Card />
-    <Card />
-    <Card />
   </div>
 </template>
