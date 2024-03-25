@@ -1,7 +1,10 @@
 <script setup>
+
+
 defineProps({
-  imageUrl: String,
+  id: Number,
   title: String,
+  imageUrl: String,
   price: Number,
   isFavorite: Boolean,
   isAdded: Boolean,
@@ -32,6 +35,6 @@ defineProps({
       </div>
       <img @click="onClickAdd" :src="!isAdded ? '/plus.svg' : '/checked.svg'" alt="plus" />
     </div>
-    
+
   </div>
 </template>
